@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "advancementscreenshot",
-  "version": "4.6",
+  "version": "4.7",
 
   "name": "Advancement Screenshot",
   "description": "A client-side mod which takes a screenshot every time a player achieves an advancement.",
@@ -18,7 +18,7 @@
   "environment": "*",
   "entrypoints": { "main": [ "com.natamus.advancementscreenshot.ModFabric" ], "client": [ "com.natamus.advancementscreenshot.ModFabricClient" ], "modmenu": [ "com.natamus.advancementscreenshot.fabric.config.IntegrateModMenu" ] },
   "mixins": [
-    "advancementscreenshot_fabric.mixins.json"
+    "advancementscreenshot.mixins.json"
   ],
 
   "depends": {
@@ -26,7 +26,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=17",
-    "collective": ">=7.21"
+    "collective": ">=7.26"
   },
 
   "custom": {
