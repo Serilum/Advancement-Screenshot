@@ -1,4 +1,4 @@
-package com.natamus.advancementscreenshot.fabric.mixin;
+package com.natamus.advancementscreenshot.mixin;
 
 import com.natamus.advancementscreenshot.util.Util;
 import net.minecraft.client.gui.GuiGraphics;
