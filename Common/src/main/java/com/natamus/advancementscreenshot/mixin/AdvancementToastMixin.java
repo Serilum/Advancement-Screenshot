@@ -1,14 +1,16 @@
-package com.natamus.advancementscreenshot.forge.mixin;
+package com.natamus.advancementscreenshot.mixin;
 
-import com.mojang.blaze3d.vertex.PoseStack;
-import com.natamus.advancementscreenshot.util.Util;
-import net.minecraft.client.gui.components.toasts.AdvancementToast;
-import net.minecraft.client.gui.components.toasts.Toast;
-import net.minecraft.client.gui.components.toasts.ToastComponent;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
+
+import com.mojang.blaze3d.vertex.PoseStack;
+import com.natamus.advancementscreenshot.util.Util;
+
+import net.minecraft.client.gui.components.toasts.AdvancementToast;
+import net.minecraft.client.gui.components.toasts.Toast;
+import net.minecraft.client.gui.components.toasts.ToastComponent;
 
 @Mixin(value = AdvancementToast.class, priority = 1001)
 public class AdvancementToastMixin {

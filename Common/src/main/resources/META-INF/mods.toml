@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="advancementscreenshot"
-version="4.6"
+version="4.7"
 displayName="Advancement Screenshot"
 displayURL="https://serilum.com/mod/advancement-screenshot"
 authors="Rick South"
@@ -23,7 +23,7 @@ If you would like to contribute too, check out https://ricksouth.com/donate. App
     modId="collective"
     type="required"
     mandatory=true
-    versionRange="[7.21,)"
+    versionRange="[7.26,)"
     ordering="NONE"
     side="BOTH"
 
