@@ -1,4 +1,4 @@
-package com.natamus.advancementscreenshot.forge.mixin;
+package com.natamus.advancementscreenshot.mixin;
 
 import com.natamus.advancementscreenshot.util.Util;
 import net.minecraft.client.gui.GuiGraphics;
