@@ -4,6 +4,7 @@ import com.natamus.advancementscreenshot.neoforge.config.IntegrateNeoForgeConfig
 import com.natamus.advancementscreenshot.neoforge.events.NeoForgeAdvancementGetEvent;
 import com.natamus.advancementscreenshot.util.Reference;
 import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
@@ -17,6 +18,10 @@ import net.neoforged.fml.loading.FMLEnvironment;
 public class ModNeoForge {
 	
 	public ModNeoForge(IEventBus modEventBus) {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
 		modEventBus.addListener(this::loadComplete);
 
 		setGlobalConstants();
