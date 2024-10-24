@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="*"
+license="All rights reserved"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Advancement%20Screenshot"
+logoFile="icon.png"
+
+[[mods]]
+modId="advancementscreenshot"
+version="4.9"
+displayName="Advancement Screenshot"
+displayURL="https://serilum.com/mod/advancement-screenshot"
+authors="Rick South"
+description='''A client-side mod which takes a screenshot every time a player achieves an advancement.
+'''
+credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
+
+Alister, Andrean Olgo, aternosorg, Cherriesaurus, kate1073, Michael W. S., Tyler Behl, XAgent   
+
+If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
+'''
+
+[[dependencies.advancementscreenshot]]
+    modId="collective"
+    type="required"
+    versionRange="[7.88,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.advancementscreenshot]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.2,1.21.3]"
+    ordering="NONE"
+    side="BOTH"
+
+[[mixins]]
+    config = "advancementscreenshot.mixins.json"
