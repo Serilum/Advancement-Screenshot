@@ -6,12 +6,10 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.TickEvent.ClientTickEvent;
 import net.minecraftforge.event.TickEvent.Phase;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 
-@EventBusSubscriber(value = Dist.CLIENT)
 public class ForgeAdvancementGetEvent {
 	@SubscribeEvent
-	public void onClientTick(ClientTickEvent e) {
+	public static void onClientTick(ClientTickEvent e) {
 		if (!e.phase.equals(Phase.END)) {
 			return;
 		}
