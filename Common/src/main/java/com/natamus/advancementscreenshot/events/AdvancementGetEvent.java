@@ -18,10 +18,10 @@ public class AdvancementGetEvent {
 				return;
 			}
 			
-			Screenshot.grab(mc.gameDirectory, mc.getMainRenderTarget(), (context) -> {
+			Screenshot.grab(mc.gameDirectory, mc.gameRenderer.mainRenderTarget(), (context) -> {
 				mc.execute(() -> {
 					if (ConfigHandler.showScreenshotTakenMessage) {
-						mc.gui.getChat().addClientSystemMessage(context);
+						mc.gui.hud.getChat().addClientSystemMessage(context);
 					}
 				});
 			});

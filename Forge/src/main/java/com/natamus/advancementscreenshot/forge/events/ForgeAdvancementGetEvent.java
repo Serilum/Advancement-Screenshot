@@ -2,7 +2,6 @@ package com.natamus.advancementscreenshot.forge.events;
 
 import com.natamus.advancementscreenshot.data.Constants;
 import com.natamus.advancementscreenshot.events.AdvancementGetEvent;
-import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.TickEvent.ClientTickEvent;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.eventbus.api.listener.SubscribeEvent;

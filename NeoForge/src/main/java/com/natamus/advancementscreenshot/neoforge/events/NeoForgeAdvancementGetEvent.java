@@ -2,7 +2,6 @@ package com.natamus.advancementscreenshot.neoforge.events;
 
 import com.natamus.advancementscreenshot.data.Constants;
 import com.natamus.advancementscreenshot.events.AdvancementGetEvent;
-import net.neoforged.api.distmarker.Dist;
 import net.neoforged.neoforge.client.event.ClientTickEvent;
 import net.neoforged.bus.api.SubscribeEvent;
 
