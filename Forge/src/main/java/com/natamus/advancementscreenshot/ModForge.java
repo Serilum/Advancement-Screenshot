@@ -36,7 +36,7 @@ public class ModForge {
 			return;
 		}
 
-    	ForgeAdvancementGetEvent.registerEventsInBus();
+		ForgeAdvancementGetEvent.registerEventsInBus();
 	}
 
 	private static void setGlobalConstants() {

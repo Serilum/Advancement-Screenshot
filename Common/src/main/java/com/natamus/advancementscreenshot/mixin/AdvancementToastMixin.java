@@ -20,7 +20,7 @@ public class AdvancementToastMixin {
 	@Inject(method = "update(Lnet/minecraft/client/gui/components/toasts/ToastManager;J)V", at = @At(value = "HEAD"))
 	private void update(ToastManager toastManager, long l, CallbackInfo ci) {
 		DisplayInfo displayInfo = (DisplayInfo)this.advancement.value().display().orElse(null);
-		Component advancementTitle = displayInfo.getTitle();
+		Component advancementTitle = displayInfo.title();
 
 		if (Util.activeAdvancementTitle != advancementTitle) {
 			Util.takeScreenshot(advancementTitle);
