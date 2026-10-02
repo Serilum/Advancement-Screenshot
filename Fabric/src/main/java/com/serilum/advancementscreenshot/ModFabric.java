@@ -1,8 +1,8 @@
-package com.natamus.advancementscreenshot;
+package com.serilum.advancementscreenshot;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.advancementscreenshot.util.Reference;
+import com.serilum.advancementscreenshot.util.Reference;
 import net.fabricmc.api.ModInitializer;
 
 public class ModFabric implements ModInitializer {

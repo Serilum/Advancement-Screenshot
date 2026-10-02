@@ -1,7 +1,7 @@
-package com.natamus.advancementscreenshot.forge.config;
+package com.serilum.advancementscreenshot.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.advancementscreenshot.util.Reference;
+import com.serilum.advancementscreenshot.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 

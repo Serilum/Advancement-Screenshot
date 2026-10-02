@@ -1,6 +1,6 @@
-package com.natamus.advancementscreenshot.mixin;
+package com.serilum.advancementscreenshot.mixin;
 
-import com.natamus.advancementscreenshot.util.Util;
+import com.serilum.advancementscreenshot.util.Util;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.toasts.AdvancementToast;
 import net.minecraft.client.gui.components.toasts.Toast;

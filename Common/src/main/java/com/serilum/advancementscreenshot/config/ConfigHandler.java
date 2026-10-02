@@ -1,7 +1,7 @@
-package com.natamus.advancementscreenshot.config;
+package com.serilum.advancementscreenshot.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.advancementscreenshot.util.Reference;
+import com.serilum.advancementscreenshot.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;

@@ -1,7 +1,7 @@
-package com.natamus.advancementscreenshot.events;
+package com.serilum.advancementscreenshot.events;
 
-import com.natamus.advancementscreenshot.config.ConfigHandler;
-import com.natamus.advancementscreenshot.util.Util;
+import com.serilum.advancementscreenshot.config.ConfigHandler;
+import com.serilum.advancementscreenshot.util.Util;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.Screenshot;
 

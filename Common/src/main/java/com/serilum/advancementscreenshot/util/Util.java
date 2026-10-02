@@ -1,4 +1,4 @@
-package com.natamus.advancementscreenshot.util;
+package com.serilum.advancementscreenshot.util;
 
 public class Util {
 	public static boolean takescreenshot = false;

@@ -1,9 +1,9 @@
-package com.natamus.advancementscreenshot;
+package com.serilum.advancementscreenshot;
 
-import com.natamus.advancementscreenshot.events.AdvancementGetEvent;
+import com.serilum.advancementscreenshot.events.AdvancementGetEvent;
 
 import net.fabricmc.api.ClientModInitializer;
-import com.natamus.advancementscreenshot.util.Reference;
+import com.serilum.advancementscreenshot.util.Reference;
 import com.natamus.collective.check.ShouldLoadCheck;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.minecraft.client.Minecraft;

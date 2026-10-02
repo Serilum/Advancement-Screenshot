@@ -1,8 +1,7 @@
-package com.natamus.advancementscreenshot.forge.events;
+package com.serilum.advancementscreenshot.forge.events;
 
-import com.natamus.advancementscreenshot.data.Constants;
-import com.natamus.advancementscreenshot.events.AdvancementGetEvent;
-import net.minecraftforge.api.distmarker.Dist;
+import com.serilum.advancementscreenshot.data.Constants;
+import com.serilum.advancementscreenshot.events.AdvancementGetEvent;
 import net.minecraftforge.event.TickEvent.ClientTickEvent;
 import net.minecraftforge.event.TickEvent.Phase;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

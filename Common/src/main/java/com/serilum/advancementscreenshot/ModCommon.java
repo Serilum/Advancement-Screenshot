@@ -1,6 +1,6 @@
-package com.natamus.advancementscreenshot;
+package com.serilum.advancementscreenshot;
 
-import com.natamus.advancementscreenshot.config.ConfigHandler;
+import com.serilum.advancementscreenshot.config.ConfigHandler;
 
 public class ModCommon {
 

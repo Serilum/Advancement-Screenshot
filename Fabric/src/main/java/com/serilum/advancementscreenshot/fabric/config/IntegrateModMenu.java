@@ -1,7 +1,7 @@
-package com.natamus.advancementscreenshot.fabric.config;
+package com.serilum.advancementscreenshot.fabric.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.advancementscreenshot.util.Reference;
+import com.serilum.advancementscreenshot.util.Reference;
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
 
