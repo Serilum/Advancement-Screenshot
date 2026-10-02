@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "id": "advancementscreenshot",
-  "version": "5.2",
+  "version": "5.3",
 
   "name": "Advancement Screenshot",
   "description": "A client-side mod which takes a screenshot every time a player achieves an advancement.",
-  "authors": [ "Rick South" ],
+  "authors": [ "Serilum" ],
   "contact": {
     "homepage": "https://serilum.com/mod/advancement-screenshot",
     "sources": "https://github.com/Serilum/Advancement-Screenshot",
@@ -16,7 +16,7 @@
   "icon": "icon.png",
 
   "environment": "*",
-  "entrypoints": { "main": [ "com.natamus.advancementscreenshot.ModFabric" ], "client": [ "com.natamus.advancementscreenshot.ModFabricClient" ], "modmenu": [ "com.natamus.advancementscreenshot.fabric.config.IntegrateModMenu" ] },
+  "entrypoints": { "main": [ "com.serilum.advancementscreenshot.ModFabric" ], "client": [ "com.serilum.advancementscreenshot.ModFabricClient" ], "modmenu": [ "com.serilum.advancementscreenshot.fabric.config.IntegrateModMenu" ] },
   "mixins": [
     "advancementscreenshot.mixins.json"
   ],
@@ -41,7 +41,7 @@
 	  " ",
 	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
 	  " ",
-	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  "If you would like to contribute too, check out https://serilum.com/donate",
 	  " ",
 	  "Membership sponsors:",
 	  " Andrean Olgo",
